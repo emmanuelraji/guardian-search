@@ -1,7 +1,6 @@
 import { useState } from "react";
+import { GUARDIAN_API_KEY } from "../config";
 import "../App.css";
-
-const GUARDIAN_API_KEY = "8eb84aaf-bbb2-4e4d-8cfe-23c5f0342202";
 
 export default function Search({ setData, setIsLoading, setHasSearched }) {
   const [term, setTerm] = useState("");
